@@ -1,0 +1,126 @@
+*{
+    border:  black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    background-color:#6495ED;  
+    text-align: center;
+    margin-bottom: 50px;
+}
+/**nav**/
+
+nav li{
+    display: inline-block;
+    width: 15%;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+   
+}
+ul a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    
+   
+}
+ul a:hover{
+    color:#FFD700;
+    cursor: pointer;
+    transition: .3s;
+
+}
+/**titulos**/
+h1,h2,h3{
+    background: #6495ED;
+    width: 100%;
+    padding: 5px;
+}
+em.destacado{
+    font-weight: bold;
+}
+
+/**riesgos**/
+.contenedor_riesgos{
+    display: flex;
+    flex-direction: column;
+
+}
+.riesgos h1{
+    color: #FFD700;
+}
+.riesgos_article h2{
+    color: #FFD700;
+    text-align: center;
+}
+.contenedor2_riesgos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.contenedor2_riesgos img{
+    width: 300px;
+}
+
+.contenedor2_riesgos article{
+    width: 30%;
+    margin-right: 30px;
+
+}
+.riesgos{
+    margin-bottom: 100px;
+}
+
+/**daños**/
+
+.contenedor_daños{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contenedor_daños article{
+    width: 30%;
+    margin: 10px;
+}
+
+.daños h2{
+    width: 95%;
+}
+.daños h1{
+    color: #FFD700;
+    padding: 10px;
+    font-size:larger;
+    width: 95%;
+    text-align: center;
+}
+.daños{
+    margin-bottom: 100px;
+}
+
+/** Footer**/
+footer{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    font-size: small;
+    align-items: first baseline;
+    background-color: #6495ED
+}
+.iconoRedSocial{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-elem{
+    list-style: none;
+}
+.icon {
+    margin: 10px;
+    transition: 0,05s;
+    display: inline-block;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}

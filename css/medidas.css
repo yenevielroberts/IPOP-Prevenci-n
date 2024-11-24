@@ -1,0 +1,137 @@
+*{
+    border:  black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    background-color:#6495ED;  
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/**nav**/
+
+nav li{
+    display: inline-block;
+    width: 15%;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+   
+}
+ul a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    
+   
+}
+ul a:hover{
+    color:#FFD700;
+    cursor: pointer;
+    transition: .3s;
+
+}
+/**titulos**/
+h2{
+    width: 99%;
+    background-color: #6495ED;
+    padding: 10px;
+    text-align: center;
+}
+.intro h1{
+    background-color: #6495ED;
+    width: 100%;
+    padding: 5px;
+    color: #FFD700;
+}
+/**introdución**/
+.intro iframe{
+    margin: 20px;
+    margin-top: 50px;
+}
+.intro{
+    margin-bottom: 50px;
+}
+
+/**medidas preventibas**/
+.contenedor_prevencion{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.prevencion article{
+    width: 450px;
+    margin: 30px;
+}
+.prevencion  h3{
+    width: 100%;
+    background-color: #6495ED;
+    padding: 5px;
+}
+ span{
+    display: flex;
+width: 45%;
+}
+.ejercicio_ojo{
+    width: 300px;
+}
+.contenedor_prevencion img{
+    width: 350px;
+}
+.prevencion .posturaCorrecta{
+    width: 55%;
+    align-content: center;
+}
+.ejercicioRelajacion img{
+    
+    float: right;
+    margin-left: 5%;
+}
+/**golpesy caidas**/
+.contenedor_prevencion .caidas{
+    width: 55%;
+}
+.contenedor_prevencion .caidas img{
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+/**contacto electrico**/
+em.destacado{
+    font-weight: bold;
+}
+.contenedor_prevencion .contacto_electrico{
+    width: 40%;
+}
+
+
+
+/** Footer**/
+footer{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    font-size: small;
+    align-items: first baseline;
+    background-color: #6495ED
+}
+.iconoRedSocial{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-elem{
+    list-style: none;
+}
+.icon {
+    margin: 10px;
+    transition: 0,05s;
+    display: inline-block;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}

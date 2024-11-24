@@ -1,0 +1,92 @@
+*{
+    border:  black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header{
+    width: 100%;
+    background-color:#6495ED;  
+    text-align: center;
+    margin-bottom: 50px;
+}
+/**nav**/
+
+nav li{
+    display: inline-block;
+    width: 15%;
+    justify-content: space-around;
+    padding: 20px;
+    text-align: center;
+   
+}
+ul a{
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    
+   
+}
+ul a:hover{
+    color:#FFD700;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+/*****Secciones*********/
+
+h3{
+    text-decoration: none;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+
+}
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+article{
+    border: #FFD700 solid;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+article img{
+    display: flex;
+    float: right;
+    width: 200px;
+    justify-items: center;
+    align-content: center;
+    padding: 5px;
+}
+
+
+
+
+/** Footer**/
+footer{
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    font-size: small;
+    align-items: first baseline;
+    background-color: #6495ED
+}
+.iconoRedSocial{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.icon-elem{
+    list-style: none;
+}
+.icon {
+    margin: 10px;
+    transition: 0,05s;
+    display: inline-block;
+}
+.icon:hover{
+    transform: translateY(-10px);
+}
